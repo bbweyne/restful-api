@@ -16,11 +16,5 @@
   "require": {
     "topthink/framework": "^5.0",
     "ircmaxell/random-lib": "^1.2"
-  },
-  "repositories": {
-    "packagist": {
-      "type": "composer",
-      "url": "https://packagist.phpcomposer.com"
-    }
   }
 }
