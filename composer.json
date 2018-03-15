@@ -3,6 +3,10 @@
   "description": "A RESTful API package for thinkphp5",
   "license": "Apache-2.0",
   "authors": [
+    {
+      "name": "zhenglc",
+      "email": "zhengliucheng@qq.com"
+    }
   ],
   "autoload": {
     "psr-4": {
