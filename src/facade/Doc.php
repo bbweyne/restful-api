@@ -8,9 +8,9 @@
 // +----------------------------------------------------------------------
 
 
-namespace RESTful\facade;
+namespace RestfulApi\facade;
 
-use RESTful\helper\Tree;
+use RestfulApi\helper\Tree;
 use think\Config;
 use think\Request;
 use think\Response;

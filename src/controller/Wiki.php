@@ -7,12 +7,12 @@
 // | TITLE: 文档显示
 // +----------------------------------------------------------------------
 
-namespace RESTful\controller;
+namespace RestfulApi\controller;
 
-use RESTful\facade\Doc;
+use RestfulApi\facade\Doc;
 
 class Wiki extends Doc
 {
-    public $titleDoc = 'RESTful-API';
+    public $titleDoc = 'RestfulApi-API';
 
 }

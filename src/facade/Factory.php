@@ -8,7 +8,7 @@
 // +----------------------------------------------------------------------
 
 
-namespace RESTful\facade;
+namespace RestfulApi\facade;
 
 
 class Factory

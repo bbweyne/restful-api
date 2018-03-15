@@ -8,11 +8,11 @@
 // +----------------------------------------------------------------------
 
 
-namespace RESTful\auth;
+namespace RestfulApi\auth;
 
 
-use RESTful\contract\AuthContract;
-use RESTful\exception\UnauthorizedException;
+use RestfulApi\contract\AuthContract;
+use RestfulApi\exception\UnauthorizedException;
 use think\Exception;
 use think\Request;
 

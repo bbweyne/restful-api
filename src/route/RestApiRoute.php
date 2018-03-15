@@ -6,12 +6,12 @@
 // +----------------------------------------------------------------------
 // | TITLE: this to do?
 // +----------------------------------------------------------------------
-namespace RESTful\route;
+namespace RestfulApi\route;
 
 use  think\App;
 use think\Route;
 use think\Request;
-use  RESTful\controller\Wiki;
+use  RestfulApi\controller\Wiki;
 
 class RestApiRoute
 {

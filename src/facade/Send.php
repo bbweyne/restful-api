@@ -6,7 +6,7 @@
 // +----------------------------------------------------------------------
 // | TITLE: 发送响应
 // +----------------------------------------------------------------------
-namespace RESTful\facade;
+namespace RestfulApi\facade;
 
 use think\Response;
 use think\response\Redirect;

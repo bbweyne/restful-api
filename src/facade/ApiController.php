@@ -6,15 +6,15 @@
 // +----------------------------------------------------------------------
 // | TITLE: API基础
 // +----------------------------------------------------------------------
-namespace RESTful\facade;
+namespace RestfulApi\facade;
 
 use think\Config;
-use  think\App;
+use think\App;
 use think\Request;
 use think\Exception;
-use RESTful\contract\AuthContract;
+use RestfulApi\contract\AuthContract;
 use think\exception\HttpResponseException;
-use RESTful\exception\UnauthorizedException;
+use RestfulApi\exception\UnauthorizedException;
 
 
 abstract class ApiController
@@ -205,7 +205,7 @@ abstract class ApiController
      */
     private static function _auth()
     {
-        $baseAuth = Factory::getInstance(\RESTful\auth\BaseAuth::class);
+        $baseAuth = Factory::getInstance(\RestfulApi\auth\BaseAuth::class);
         try {
             return $baseAuth->auth(self::$app['auth']);
         } catch (UnauthorizedException $e) {
