@@ -2,17 +2,17 @@
 // +----------------------------------------------------------------------
 // | When work is a pleasure, life is a joy!
 // +----------------------------------------------------------------------
-// | User: ShouKun Liu  |  Email:24147287@qq.com  | Time:2017/3/26 14:51
+// | User: zhenglc/form ShouKun Liu  |  
 // +----------------------------------------------------------------------
 // | TITLE: 文档显示
 // +----------------------------------------------------------------------
 
-namespace DawnApi\controller;
+namespace RESTful\controller;
 
-use DawnApi\facade\Doc;
+use RESTful\facade\Doc;
 
 class Wiki extends Doc
 {
-    public $titleDoc = 'DAWN-API';
+    public $titleDoc = 'RESTful-API';
 
 }

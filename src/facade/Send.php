@@ -2,11 +2,11 @@
 // +----------------------------------------------------------------------
 // | When work is a pleasure, life is a joy!
 // +----------------------------------------------------------------------
-// | User: ShouKun Liu  |  Email:24147287@qq.com  | Time:2017/3/11 10:56
+// | User: zhenglc/form ShouKun Liu  |  
 // +----------------------------------------------------------------------
 // | TITLE: 发送响应
 // +----------------------------------------------------------------------
-namespace DawnApi\facade;
+namespace RESTful\facade;
 
 use think\Response;
 use think\response\Redirect;

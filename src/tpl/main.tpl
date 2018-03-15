@@ -71,8 +71,8 @@
                         <h3 class="">API文档</h3>
                         <div class="error-desc">
                             <br>
-                            <a  target="_blank" href="https://github.com/liushoukun/dawn-api" class="btn btn-w-m btn-link">gitHub</a>
-                            <a target="_blank" href="https://gitee.com/liushoukun/dawn-api" class="btn btn-w-m btn-link">osc</a>
+                            <a  target="_blank" href="https://github.com/bbweyne/restful-api" class="btn btn-w-m btn-link">gitHub</a>
+                            <a target="_blank" href="https://gitee.com/bbweyne/restful-api" class="btn btn-w-m btn-link">osc</a>
 
                         </div>
                     </div>

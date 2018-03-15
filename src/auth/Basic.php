@@ -2,17 +2,17 @@
 // +----------------------------------------------------------------------
 // | When work is a pleasure, life is a joy!
 // +----------------------------------------------------------------------
-// |  User: ShouKun Liu  |  Email:24147287@qq.com  | Time:2017/3/9 15:10
+// |  User: zhenglc/form ShouKun Liu  |  
 // +----------------------------------------------------------------------
 // | TITLE: basic
 // +----------------------------------------------------------------------
 
 
-namespace DawnApi\auth;
+namespace RESTful\auth;
 
 
-use DawnApi\contract\AuthContract;
-use DawnApi\exception\UnauthorizedException;
+use RESTful\contract\AuthContract;
+use RESTful\exception\UnauthorizedException;
 use think\Exception;
 use think\Request;
 

@@ -1,16 +1,12 @@
 {
-  "name": "liushoukun/dawn-api",
-  "description": "A RESTful API package",
+  "name": "bbweyne/restful-api",
+  "description": "A RESTful API package for thinkphp5",
   "license": "Apache-2.0",
   "authors": [
-    {
-      "name": "liushoukun",
-      "email": "liushoukun66@gmail.com"
-    }
   ],
   "autoload": {
     "psr-4": {
-      "DawnApi\\": "src/"
+      "RESTfulApi\\": "src/"
     }
   },
   "require": {

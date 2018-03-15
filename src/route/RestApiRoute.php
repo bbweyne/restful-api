@@ -2,18 +2,18 @@
 // +----------------------------------------------------------------------
 // | When work is a pleasure, life is a joy!
 // +----------------------------------------------------------------------
-// | User: ShouKun Liu  |  Email:24147287@qq.com  | Time:2017/9/26 16:18
+// | User: zhenglc/form ShouKun Liu  |  
 // +----------------------------------------------------------------------
 // | TITLE: this to do?
 // +----------------------------------------------------------------------
-namespace DawnApi\route;
+namespace RESTful\route;
 
 use  think\App;
 use think\Route;
 use think\Request;
-use  DawnApi\controller\Wiki;
+use  RESTful\controller\Wiki;
 
-class DawnRoute
+class RestApiRoute
 {
 
     public static function wiki()
